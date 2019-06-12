@@ -11,7 +11,7 @@ def fizzbuzz(any)
   val = "Buzz"
   
 elsif any % 3 == 0 
-int = "fizzbuzz"
+val = "Fizz"
 
 else 
   put "not divisible by 3 or 5"
