@@ -5,12 +5,12 @@ end
 
 def fizzbuzz(any)
   if any % 3 && any % 5 == 0 
-    int = "Fizz"
+    val = "Fizzbuzz"
     
-  elsif int % 5 == 0 
-  int = "Buzz"
+  elsif any % 5 == 0 
+  val = "Buzz"
   
-elsif int % 15 == 0 
+elsif any % 3 == 0 
 int = "fizzbuzz"
 
 else 
