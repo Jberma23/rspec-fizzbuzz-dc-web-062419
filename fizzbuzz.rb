@@ -12,4 +12,7 @@ def fizzbuzz(int)
   
 elsif int % 15 == 0 
 int = "fizzbuzz"
+
+else 
+  puts "not divisible "
 end
