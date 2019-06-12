@@ -14,5 +14,5 @@ elsif int % 15 == 0
 int = "fizzbuzz"
 
 else 
-  puts "not divisible "
+  put "not divisible by 3 or 5"
 end
