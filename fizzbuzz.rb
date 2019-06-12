@@ -4,7 +4,7 @@ def fizzbuzz
 end
 
 def fizzbuzz(any)
-  if any % 3 |  == 0 
+  if any % 3 && any % 5 == 0 
     int = "Fizz"
     
   elsif int % 5 == 0 
