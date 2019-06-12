@@ -3,3 +3,6 @@
 def fizzbuzz
 end
 
+def fizzbuzz(int)
+  
+end
